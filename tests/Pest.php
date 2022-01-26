@@ -1,3 +1,5 @@
 <?php
 
-function noop() {}
+function noop()
+{
+}

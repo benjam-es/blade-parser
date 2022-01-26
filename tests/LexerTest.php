@@ -4,7 +4,8 @@ use Pest\Expectation;
 use RyanChandler\BladeParser\Lexer;
 use RyanChandler\BladeParser\TokenType;
 
-function lexer(string $source): Expectation {
+function lexer(string $source): Expectation
+{
     return expect(Lexer::generate($source));
 }
 
