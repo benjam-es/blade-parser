@@ -12,7 +12,6 @@ class Token implements Stringable
     public function __construct(
         public readonly TokenType $type,
         public readonly string $slice,
-        public readonly array $span,
         public readonly int $line,
     ) {}
 
