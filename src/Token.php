@@ -14,7 +14,8 @@ class Token implements Stringable
         public readonly string $slice,
         public readonly array $span,
         public readonly int $line,
-    ) {}
+    ) {
+    }
 
     public function __toString(): string
     {
