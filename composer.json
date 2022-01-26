@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "ryangjchandler/blade-parser",
+    "description": "A general-purpose parser for Laravel's Blade templating engine.",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "ryangjchandler",
+        "blade-parser"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/ryangjchandler/blade-parser",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Ryan Chandler",
+            "email": "support@ryangjchandler.co.uk",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "RyanChandler\\BladeParser\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "RyanChandler\\BladeParser\\Tests\\": "tests"
         }
     },
     "scripts": {
