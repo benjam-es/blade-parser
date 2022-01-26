@@ -13,7 +13,8 @@ class Token implements Stringable
         public readonly TokenType $type,
         public readonly string $slice,
         public readonly int $line,
-    ) {}
+    ) {
+    }
 
     public function __toString(): string
     {
